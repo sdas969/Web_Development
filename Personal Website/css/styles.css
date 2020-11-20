@@ -1,0 +1,43 @@
+body
+{
+    background-color :#212121;
+    color: white;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    width: 10%;
+    border-color: white;
+    border-width: 20px;
+}
+h3{
+    color: white;
+}
+/* img{
+    height: 150px;
+    background-color:blue;
+    border-color: white;
+    border-width: 100px;
+    border-radius: 100%;
+} */
+textarea{
+    color: white;
+    background-color: #212121;
+}
+input
+{
+    color: white;
+    background-color: #212121;
+}
+.github
+{
+    background-color: blue;
+    border-radius: 100%;
+    height: 150px
+}
+.temp
+{
+    height: 150px;
+    border-radius: 20%;
+    background-color:red;
+}
