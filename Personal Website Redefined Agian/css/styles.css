@@ -1,0 +1,125 @@
+body
+{
+    background-color: #212121;
+    color:white;
+    margin:0px;
+    text-align:center;
+}
+.web
+{
+    text-decoration: underline;
+    display:inline;
+}
+img
+{
+    display:inline-block;
+    height: 100px;
+    width: 100px;
+}
+div{
+    height: 100px;
+    margin: 0px;
+}
+.mountain
+{
+    position: relative;
+    top:10px;
+}
+.red
+{
+    background-color:red;
+    height:200px;
+    width:200px;
+    display:inline-block;
+    position: relative;
+    left:400px;
+}
+.green
+{
+    display:inline-block;
+    background-color:green;
+    height:200px;
+    width: 200px;
+    position: relative;
+    right:200px;
+}
+.blue{
+    display:inline-block;
+    background-color:blue;
+    height:200px;
+    width:200px;
+    position: relative;
+    right:200px;
+}
+h1{
+    margin: 0px;
+}
+p{
+    margin:0px;
+}
+.yellow
+{
+    display:inline-block;
+    height:200px;
+    width:200px;
+    background-color:yellow;
+    position:absolute;
+    right:200px;
+}
+.red-test
+{
+    background-color:red;
+    height:200px;
+    width:200px;
+    display:block;
+    top:400px;
+}
+div
+{
+    margin:0 auto 0 auto;
+}
+.green-test
+{
+    display:block;
+    background-color:green;
+    height:200px;
+    width: 200px;
+
+    left:200px;
+    top:600px;
+}
+.light-blue
+{
+    display: block;
+    background-color:lightblue;
+    position: fixed;
+    height:50px;
+    width:100%;
+    top:0px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.blue-test
+{
+    display:block;
+    background-color:blue;
+    height:200px;
+    width:200px;
+    left:400px;
+    top:800px;
+}
+.yellow-test
+{
+    display:block;
+    height:200px;
+    width:200px;
+    background-color:yellow;
+    left:600px;
+    top:1000px;
+}
+.content
+{
+    position: absolute;
+    top:50px;
+    width:100%;
+}
