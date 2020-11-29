@@ -59,34 +59,160 @@
         <div class='col-lg-2 col-md-3'>pc-6 tab-4 phone-1</div>
     </div> -->
     <div class="container-fluid bg-danger">
-        <section id='title'>
-            <nav class='navbar navbar-dark  navbar-expand-md'>
-                <div class='navbar-brand'>TinDog</div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class='collapse navbar-collapse' id='navbarSupportedContent'>
-                    <div class='navbar-nav ml-auto'>
-                        <a class='nav-item nav-link top-link' href="#">Home</a>
-                        <a class='nav-item nav-link top-link' href="#">Projects</a>
-                        <a class='nav-item nav-link top-link' href="#">Contact</a>
+        <nav class='navbar navbar-dark  navbar-expand-md'>
+            <div class='logo navbar-brand'>tindog</div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class='collapse navbar-collapse' id='navbarSupportedContent'>
+                <ul class='navbar-nav ml-auto'>
+                    <li clas='top-link'><a class='nav-item nav-link' href="#">Home</a></li>
+                    <li class='top-link'><a class='nav-item nav-link' href="#carouselExampleIndicators">Projects</a>
+                    </li>
+                    <li class='top-link'><a class='nav-item nav-link' href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class='container row main'>
+            <div class='col-lg-6'>
+                <h1>Meet new and interesting dogs nearby</h1>
+                <button type="button" class="download btn btn-dark btn-lg"><i class="fab fa-apple"></i>
+                    Download</button>
+                <button type="button" class='download btn btn-outline-light btn-lg'><i class="fab fa-google-play"></i>
+                    Download</button>
+            </div>
+            <div class='col-lg-6 text-center'><img class='rotate' src="images/iphone6.png" alt=""></div>
+        </div>
+    </div>
+    <section class='feature bg-white'>
+        <div class=' container-fluid'>
+            <div class='row'>
+                <div class='col-lg-4'>
+                    <i class="fas fa-check-circle features fa-4x" id='check'></i>
+                    <p class='head'>Easy to use</p>
+                    <p class='description'>So easy to use even your dog can do it.</p>
+                </div>
+                <div class='col-lg-4'>
+                    <i class="fas fa-bullseye features fa-4x" id='bullseye'></i>
+                    <p class='head'>Elite Clientele</p>
+                    <p class='description'>We have all the dogs, the greatest dods.</p>
+                </div>
+                <div class='col-lg-4'>
+                    <i class="fas fa-heart features fa-4x" id='heart'></i>
+                    <p class='head'>Guaranteed to work</p>
+                    <p class='description'>Find the love of your dog's life, or your money back.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class='bg-danger' id='testimonials'>
+        <div id='carouselExampleIndicators' class='carousel slide' data-ride='carousel'>
+            <ol class='carousel-indicators'>
+                <li data-target="#carouselExampleIndicators" data-slide-to='0' class='active'></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to='1'></li>
+            </ol>
+            <div class='carousel-inner'>
+                <div class='carousel-item active reviews'>
+                    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog.
+                        Woof!!!</h2>
+                    <img class='costumer-icon' src="images/dog-img.jpg" alt="">
+                    <i class='costumer'>
+                        Pebbles, New York
+                    </i>
+                </div>
+                <div class='carousel-item reviews'>
+                    <h2>My dog used to be so lonely , but with TinDog's help , they've found the love of their life. I
+                        think.</h2>
+                    <img class='costumer-icon' src="images/lady-img.jpg" alt="">
+                    <i class='costumer'>
+                        Pebbles, New York
+                    </i>
+                </div>
+            </div>
+            <a href="#carouselExampleIndicators" class='carousel-control-prev' role="button" data-slide='prev'>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <section class='bg-danger' id='featured'>
+        <div class='row'>
+            <div class='col-lg-3 col-md-6'>
+                <img class='brand-icons' src="images/bizinsider.png" alt="">
+            </div>
+            <div class='col-lg-3 col-md-6'>
+                <img class='brand-icons' src="images/mashable.png" alt="">
+            </div>
+            <div class='col-lg-3 col-md-6'>
+                <img class='brand-icons' src="images/TechCrunch.png" alt="">
+            </div>
+            <div class='col-lg-3 col-md-6'>
+                <img class='brand-icons' src="images/tnw.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class='price'>
+        <h2>Pricing</h2>
+        <p>Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built
+            with default Bootstrap components and utilities with little customization.</p>
+        <div class='row'>
+            <div class='col-lg-4 price-card col-md-6'>
+                <div class='card shadow-sm'>
+                    <div class='card-header'>
+                        <h3>Free</h3>
+                    </div>
+                    <div class='card-body'>
+                        <ul class='list-unstyled'>
+                            <li>10 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer"><button class='btn btn-primary btn-block'>Sign Up for Free</button></div>
+                </div>
+            </div>
+            <div class='col-lg-4 price-card col-md-6'>
+                <div class='card shadow-sm'>
+                    <div class='card-header'>
+                        <h3>Pro</h3>
+                    </div>
+                    <div class='card-body'>
+                        <ul class='list-unstyled'>
+                            <li>20 users included</li>
+                            <li>10 GB of storage</li>
+                            <li>Priority email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer"><button class='btn btn-outline-primary btn-block'>Pro @ 99 Rs</button>
                     </div>
                 </div>
-            </nav>
-            <div class='row'>
-                <div class='col-lg-6'>
-                    <h1>Meet new and interesting dogs nearby</h1>
-                    <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
-                    <button type="button" class='btn btn-outline-light btn-lg'><i class="fab fa-google-play"></i>
-                        Download</button>
-                </div>
-                <div class='col-lg-6'><img class='rotate' src="images/iphone6.png" alt=""></div>
             </div>
-
-        </section>
-    </div>
+            <div class='col-lg-4 price-card'>
+                <div class='card shadow-sm'>
+                    <div class='card-header'>
+                        <h3>Pro Max</h3>
+                    </div>
+                    <div class='card-body'>
+                        <ul class='list-unstyled'>
+                            <li>30 users included</li>
+                            <li>15 GB of storage</li>
+                            <li>Phone and email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer"><button class='btn btn-outline-primary btn-block'>Pro Max @ 199 Rs</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>

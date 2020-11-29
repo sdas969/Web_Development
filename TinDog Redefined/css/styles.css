@@ -1,23 +1,152 @@
 body{
 
     font-family: 'Montserrat', sans-serif;
+    color:white;
 }
 .container-fluid
 {
-    padding:3% 15%;
+    padding-left:15%;
+    padding-right:15%;
+    padding-bottom:6%;
+    padding-top:3%;
 }
 h1
 {
     font-family: 'Montserrat', sans-serif;
     font-size:3rem;
     line-height:1.5;
-}
-.top-link
-{
-    margin:0% 11%;
+    color: white;
 }
 .rotate
 {
-    margin:10%;
-    transform:rotate(20deg)
+    margin:5%;
+    transform:rotate(20deg);
+    width:50%;
+    position:absolute;
+    z-index: 0;
+}
+.download
+{
+    margin: 5%;
+}
+.logo
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar
+{
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+}
+.head
+{
+    font-size:1.5rem;
+    font-weight: bold;
+}
+.container-fluid
+{
+    
+    color:black;
+}
+.features
+{
+    padding-bottom: 1.2rem;
+    color:#ef8172;
+}
+.feature
+{
+    padding-top: 4rem;
+    padding-bottom:4rem;
+    text-align:center;
+    position:relative;
+    z-index: 1;
+}
+#bullseye:hover
+{
+    color:#ff4c68;
+}
+#check:hover
+{
+    color:#ff4c68;
+}
+#heart:hover
+{
+    color:#ff4c68;
+}
+.description
+{
+    color:#8f8f8f;
+}
+#testimonials
+{
+    padding:3% 2%;
+}
+.reviews
+{
+    text-align: center;
+}
+h2
+{
+    font-size:3rem;
+    line-height: 1.5;
+    font-weight:bold;
+}
+.costumer-icon
+{
+    border-radius: 100%;
+    width:5%;
+}
+.costumer
+{
+    margin-left:2%;
+}
+#featured
+{
+    text-align: center;
+    padding:3% 15%;
+}
+.brand-icons
+{
+    padding:11%;
+    height:auto;
+    max-width:100%;
+    object-fit:contain;
+}
+#slide
+{
+    text-align: center;
+}
+.carousel-inner
+{
+    padding:11%;
+}
+.price
+{
+    color:black;
+    text-align: center;
+    padding:3% 15%;
+}
+.price-card
+{
+    padding:3%;
+}
+@media (max-width:1000px)
+{
+    .rotate
+    {
+        margin:5%;
+        transform:rotate(0deg);
+        width:50%;
+        position: static;
+    }
+    .main
+    {
+        text-align: center;
+    }
 }
