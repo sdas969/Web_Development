@@ -136,7 +136,11 @@ h2
 {
     padding:3%;
 }
-@media (max-width:1000px)
+.lastnotes
+{
+    padding:3% 15%;
+}
+@media (max-width:1024px)
 {
     .rotate
     {
@@ -149,4 +153,24 @@ h2
     {
         text-align: center;
     }
+}
+.foot
+{
+    padding:3% 10%;
+}
+.foot-icons
+{
+    padding:3%;
+}
+.footer-icon
+{
+    color:black;
+}
+.footer
+{
+    padding:5% 30% 0%;
+}
+#copyright
+{
+    color:black;
 }
