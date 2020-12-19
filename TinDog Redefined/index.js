@@ -1,2 +1,4 @@
 var a = 'hello';
-a.slice(0, 3);
+alert('hello');
+document.lastElementChild.lastElementChild.innerHTML = 'Hello';
+document.querySelector('body').innerHTML = 'Hello';
