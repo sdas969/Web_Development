@@ -1,0 +1,24 @@
+body
+{
+  background-color: #212121;
+  text-align: center;
+}
+.dice
+{
+  display:inline-block;
+}
+h1
+{
+  color:cadetblue;
+  font-size:5rem;
+  font-family:'Lobster';
+}
+p
+{
+  color:cornflowerblue;
+  font-family:'Indie Flower';
+}
+#winner
+{
+  font-size: 2rem;
+}
