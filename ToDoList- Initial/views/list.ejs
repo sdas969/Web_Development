@@ -5,15 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <h1>Its <%= dayname %>
     </h1>
     <ul>
-        <li>Buy Food</li>
-        <li>Cook Food</li>
-        <li>Eat Food</li>
         <% for (let i=0; i <=(items).length-1 ;i++){ %>
             <li>
                 <%= items[i] %>
