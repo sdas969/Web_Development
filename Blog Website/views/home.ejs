@@ -1,6 +1,16 @@
 <%- include('partials/header'); -%>
-    <h1>Home</h1>
-    <p>
-        <%= homeStartingContent %>
-    </p>
-    <%- include('partials/footer'); -%>
+    <% if (posts.length==0){ %>
+        <h1>No posts to show</h1>
+        <p>Add posts from the compose section</p>
+        <% }else { %>
+            <% for (let i=0;i<posts.length;i++){ %>
+                <div>
+                    <h1>
+                        <%= posts[i].title %>
+                    </h1>
+                    <p>
+                        <%= posts[i].post %>
+                    </p>
+                </div>
+                <% }} %>
+                    <%- include('partials/footer'); -%>
