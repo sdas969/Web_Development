@@ -1,12 +1,10 @@
-module.exports.getDate = getDate;
-module.exports.getDay = getDay;
-function getDate() {
+exports.getDate = function () {
     let date = new Date();
     let currentDate = date.toLocaleDateString('en-US', { weekday: 'long', day: 'numeric', month: 'long' });
     return currentDate;
 }
 
-function getDay() {
+exports.getDay = function () {
     let date = new Date();
     let currentDate = date.toLocaleDateString('en-US', { weekday: 'long' });
     return currentDate;
