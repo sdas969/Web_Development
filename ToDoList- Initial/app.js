@@ -12,7 +12,8 @@ app.get('/', function (req, res) {
     res.render('list', { dayname: day, items: items });
 });
 app.post('/', function (req, res) {
-    items.push(req.body.newitem);
+    if (req.body.newitem != '')
+        items.push(req.body.newitem);
     res.redirect('/');
 });
 
