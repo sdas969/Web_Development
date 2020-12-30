@@ -3,14 +3,15 @@
         <h1>No posts to show</h1>
         <p>Add posts from the compose section</p>
         <% }else { %>
-            <% for (let i=0;i<posts.length;i++){ %>
+            <% posts.forEach(function(post){ %>
                 <div>
                     <h1>
-                        <%= posts[i].title %>
+                        <%= post.title %>
                     </h1>
                     <p>
-                        <%= posts[i].post %>
+                        <%= post.post %>
                     </p>
                 </div>
-                <% }} %>
+
+                <% })} %>
                     <%- include('partials/footer'); -%>
