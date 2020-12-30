@@ -8,13 +8,22 @@
 </head>
 
 <body>
-    <% if (Number(day)!=0) {%>
-        <h1 style="color: purple;">It's a <%= dayname %>
-        </h1>
-        <% } else {%>
-            <h1 style="color: blue;">It's a <%= dayname %>
-            </h1>
+    <h1>Its <%= dayname %>
+    </h1>
+    <ul>
+        <li>Buy Food</li>
+        <li>Cook Food</li>
+        <li>Eat Food</li>
+        <% for (let i=0; i <=(items).length-1 ;i++){ %>
+            <li>
+                <%= items[i] %>
+            </li>
             <% } %>
+                <form action="" method="post">
+                    <input type="text" name="newitem" id="">
+                    <button type="submit">Add</button>
+                </form>
+    </ul>
 </body>
 
 </html>
