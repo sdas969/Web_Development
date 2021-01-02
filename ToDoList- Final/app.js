@@ -59,7 +59,19 @@ app.get("/about", function (req, res) {
 });
 
 app.post('/delete', function (req, res) {
-  console.log(req.body);
+  // Item.deleteOne({ _id: req.body.check }, function (err) {
+  //   if (err)
+  //     console.log(err);
+  //   else
+  //     console.log('deleted');
+  // });
+  Item.findByIdAndRemove(req.body.check, function (err) {
+    if (err)
+      console.log(err);
+    else
+      console.log('deleted');
+  });
+  res.redirect('/');
 });
 
 app.listen(3000, function () {
