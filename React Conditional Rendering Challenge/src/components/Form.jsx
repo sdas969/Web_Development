@@ -6,7 +6,7 @@ function Form(props) {
       <input type="text" placeholder="Username" />
       <input type="password" placeholder="Password" />
       {!props.userIsRegistered && <input type="password" placeholder="Confirm Password" />}
-      <button type="submit">{props.userIsRegistered ? Login : Register}</button>
+      <button type="submit">{props.userIsRegistered ? 'Login' : 'Register'}</button>
     </form>
   );
 }
