@@ -1,3 +1,4 @@
+import React from 'react';
 const cars = [
   {
     model: "Honda Civic",
@@ -18,3 +19,5 @@ const cars = [
     }
   }
 ];
+
+export default cars;

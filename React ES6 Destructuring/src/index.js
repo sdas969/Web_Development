@@ -3,7 +3,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import practice from './practice.js';
 
-const [honda, tesla] = [practice];
+const [honda, tesla] = practice;
+const [hondaTopSpeed, teslaTopSpeed] = [honda.speedStats.topSpeed, tesla.speedStats.topSpeed];
+const [hondaTopColour, teslaTopColour] = [honda.coloursByPopularity, tesla.coloursByPopularity]
 
 
 ReactDOM.render(
